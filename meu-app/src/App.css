@@ -1,3 +1,46 @@
 .App {
   text-align: center;
+  justify-items: center;
 }
+
+.header {
+  align-items: center;
+  display: flex;
+}
+
+
+.addButon {
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.addButon :hover{
+  color: black;
+}
+
+.closeButon {
+  font-size: 35px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.closeButon:hover{
+  color: rgb(132, 4, 4);
+}
+
+.card {
+  margin: auto;
+  position: absolute;
+  width: 50rem;
+  background-color: white;
+  color: rgb(37, 37, 37);
+  padding: 0px 20px 0px 60px;
+}
+
+.card .header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
