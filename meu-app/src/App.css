@@ -8,39 +8,29 @@
   display: flex;
 }
 
-
 .addButon {
   font-size: 30px;
   cursor: pointer;
   margin-left: 20px;
+
 }
 
 .addButon :hover{
   color: black;
 }
 
-.closeButon {
-  font-size: 35px;
+.editIcons {
+  font-size: 22px;
+  display: flex;     
+  gap: 10px;           
+  justify-content: flex-end; 
   cursor: pointer;
-  color: rgb(0, 0, 0);
 }
 
-.closeButon:hover{
-  color: rgb(132, 4, 4);
+.deleteButon:hover{
+  color: rgb(163, 0, 0);
 }
 
-.card {
-  margin: auto;
-  position: absolute;
-  width: 50rem;
-  background-color: white;
-  color: rgb(37, 37, 37);
-  padding: 0px 20px 0px 60px;
+.editButon:hover{
+  color: black;
 }
-
-.card .header {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-}
-
